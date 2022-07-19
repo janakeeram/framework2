@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="17.421">
+    <testcase classname="Feature to test functionality of google" name="Check google search on chrome browser" time="10.857">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'INLEN8520045410', ip: '192.168.43.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [17c77aae7a7fd24f5109dc843a5a3521, close {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PJANAKEE\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53840/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 17c77aae7a7fd24f5109dc843a5a3521" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user opens google page................................................passed
+When user searches for search...............................................passed
+Then user closes the browser................................................passed
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'INLEN8520045410', ip: '192.168.43.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17c77aae7a7fd24f5109dc843a5a3521, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\PJANAKEE\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53840/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17c77aae7a7fd24f5109dc843a5a3521
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:454)
+	at Assignment.AssignmentCode.teardown(AssignmentCode.java:61)
+]]></failure>
+    </testcase>
+    <testcase classname="Feature to test functionality of google" name="Check google search on mozilla browser" time="6.443">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=103.0.1264.62)&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'INLEN8520045410', ip: '192.168.43.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [06387985f9c0ff55bcba1cdb91ee1f26, findElement {using=name, value=q}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.62, ms:edgeOptions: {debuggerAddress: localhost:53892}, msedge: {msedgedriverVersion: 103.0.1264.62 (e5d152f334ae..., userDataDir: C:\Users\PJANAKEE\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53892/devtoo..., se:cdpVersion: 103.0.1264.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 06387985f9c0ff55bcba1cdb91ee1f26" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user opens google page................................................skipped
+When user searches for search...............................................skipped
+Then user closes the browser................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=103.0.1264.62)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'INLEN8520045410', ip: '192.168.43.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [06387985f9c0ff55bcba1cdb91ee1f26, findElement {using=name, value=q}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.62, ms:edgeOptions: {debuggerAddress: localhost:53892}, msedge: {msedgedriverVersion: 103.0.1264.62 (e5d152f334ae..., userDataDir: C:\Users\PJANAKEE\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53892/devtoo..., se:cdpVersion: 103.0.1264.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 06387985f9c0ff55bcba1cdb91ee1f26
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at Assignment.AssignmentCode.setup1(AssignmentCode.java:53)
+]]></failure>
+    </testcase>
+</testsuite>

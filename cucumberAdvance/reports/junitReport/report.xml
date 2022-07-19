@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="11.087">
+    <testcase classname="Check Login functionality" name="Sample1" time="10.972">
+        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Check Login functionality" name="Sample2" time="0.002">
+        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

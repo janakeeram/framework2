@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.184">
+    <testcase classname="Test Orange HRM wUser is logged in" name="verify user using data table" time="0.025">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user navigate to the login page.......................................undefined
+When user enters <username> and <password>..................................skipped
+And user should logged in...................................................skipped
+Given user is in homepage...................................................skipped
+And Goto user then users and verify user role is present or not.............skipped
+Then logout and close the browser...........................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Test Orange HRM wUser is logged in" name="verify employee name coloumn is present or not" time="0.001">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user navigate to the login page.......................................undefined
+When user enters <username> and <password>..................................skipped
+And user should logged in...................................................skipped
+Given user is in homepage...................................................skipped
+And Goto leave and my leave.................................................skipped
+Then verify employee name is present or not.................................skipped
+Then logout and close browser...............................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
